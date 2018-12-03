@@ -96,8 +96,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 40px auto auto auto auto;
-  grid-gap: 10px 10px;
-  padding; 3px;
+  grid-gap: 1px 1px;
 }
 .item1 {
   grid-column: 1 / 2;
@@ -105,16 +104,19 @@ body {
 .item2 {
   grid-column: 2 / 3;
   background-color: #ecb722;
+  padding: 4px;
 }
 .item3 {
   grid-column: 3 / 4;
   color: white;
   background-color: #1b447f;
+  padding: 4px;
 }
 .item4 {
   grid-column: 4 / 5;
   color: white;
   background-color: #444444;
+  padding: 4px;
 }
 .item5 {
   grid-row: 2;
@@ -124,18 +126,21 @@ body {
   grid-row: 2;
   grid-column: 2 / 3;
   background-color: #ecb722;
+  padding: 4px;
 }
 .item7 {
   grid-row: 2;
   grid-column: 3 / 4;
   color: white;
   background-color: #1b447f;
+  padding: 4px;
 }
 .item8 {
   grid-row: 2;
   grid-column: 4 / 5;
   color: white;
   background-color: #444444;
+  padding: 4px;
 }
 .item9 {
   grid-row: 3;
@@ -145,18 +150,21 @@ body {
   grid-row: 3;
   grid-column: 2 / 3;
   background-color: #ecb722;
+  padding: 4px;
 }
 .item11 {
   grid-row: 3;
   grid-column: 3 / 4;
   color: white;
   background-color: #1b447f;
+  padding: 4px;
 }
 .item12 {
   grid-row: 3;
   grid-column: 4 / 5;
   color: white;
   background-color: #444444;
+  padding: 4px;
 }
 .item13 {
   grid-row: 4;
@@ -166,18 +174,21 @@ body {
   grid-row: 4;
   grid-column: 2 / 3;
   background-color: #ecb722;
+  padding: 4px;
 }
 .item15 {
   grid-row: 4;
   grid-column: 3 / 4;
   color: white;
   background-color: #1b447f;
+  padding: 4px;
 }
 .item16 {
   grid-row: 4;
   grid-column: 4 / 5;
   color: white;
   background-color: #444444;
+  padding: 4px;
 }
 .item17 {
   grid-row: 5;
@@ -187,16 +198,26 @@ body {
   grid-row: 5;
   grid-column: 2 / 3;
   background-color: #ecb722;
+  padding: 4px;
 }
 .item19 {
   grid-row: 5;
   grid-column: 3 / 4;
   color: white;
   background-color: #1b447f;
+  padding: 4px;
 }
 .item20 {
   grid-row: 5;
   grid-column: 4 / 5;
   color: white;
   background-color: #444444;
+  padding: 4px;
 }
+/* .grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 40px auto auto auto;
+  grid-gap: 10px 10px;
+  padding: 10px;
+} */
